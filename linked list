@@ -1,0 +1,39 @@
+#include<bits/stdc++.h>
+using namespace std;
+main()
+{
+struct node
+{
+int info;
+node *link;
+}*start,*t,*t1,*ptr;
+int tc,i,n;
+
+ cout<<"Enter number of elements\n";
+cin>>n;
+for(i=0;i<n;i++)
+{
+t=(struct node*)malloc(sizeof(struct node));
+cin>>t->info;
+t->link=NULL;
+if(i==0)
+{
+start=t;
+t1=t;
+}
+else{
+t1->link=t;
+t1=t;
+}
+
+}
+ptr=start;
+while(ptr!=NULL)
+{
+cout<<ptr->info<<" ";
+ptr=ptr->link;
+}
+}
+
+
+
