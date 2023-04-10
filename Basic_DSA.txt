@@ -1,0 +1,15 @@
+Q1 Linked list and Array
+- An array is a collection of elements of a similar data type.
+A linked list is a collection of objects known as a node where node consists of two parts, i.e., data and address.
+
+Array works with a static memory. Here static memory means that the memory size is fixed and cannot be changed at the run time.
+The Linked list works with dynamic memory. Here, dynamic memory means that the memory size can be changed at the run time according to our requirements.
+
+Array takes more time while performing any operation like insertion, deletion, etc.
+Linked list takes less time while performing any operation like insertion, deletion, etc.
+
+Accessing any element in an array is faster as the element in an array can be directly accessed through the index.
+Accessing an element in a linked list is slower as it starts traversing from the first element of the linked list.
+
+Q2 Binary search ?
+- TC O(log n)
