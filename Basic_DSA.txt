@@ -13,3 +13,5 @@ Accessing an element in a linked list is slower as it starts traversing from the
 
 Q2 Binary search ?
 - TC O(log n)
+
+Q3 Quick sort ?
